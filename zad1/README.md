@@ -10,10 +10,10 @@ W katalogu /res znajduja sie:
 -pliki pdf zawierajace wykresy pomiarow utworzone za pomaca programu gnuplot
 
 ## Sposoby mnozenia
--naivmull - zwykle mnozenie macierzy, ktore przechodzi po wierszach macierzy
--bettmull - to samo co naiv_mul tyle ze przechodzi po kolumnach macierzy (skuteczniejszy, poniewaz w Fortran-ie macierz przechowywana jest kolumnami
--dotmull - podobnie jak naiv mul, tylko korzysta z wbudowanej funkcji dot_product, ktora sluzy do mnozenia skalarnego 2 wektorow
--matmul - wbudowana funkcja, ktora sluzy do mnozenia 2 macierzy przez siebie
+*naivmull - zwykle mnozenie macierzy, ktore przechodzi po wierszach macierzy
+*bettmull - to samo co naiv_mul tyle ze przechodzi po kolumnach macierzy (skuteczniejszy, poniewaz w Fortran-ie macierz przechowywana jest kolumnami
+*dotmull - podobnie jak naiv mul, tylko korzysta z wbudowanej funkcji dot_product, ktora sluzy do mnozenia skalarnego 2 wektorow
+*matmul - wbudowana funkcja, ktora sluzy do mnozenia 2 macierzy przez siebie
 
 ## Wyniki
 Ponizej widoczne sa wykresy (odpowiednio dla kind = 4, 8, 16)
