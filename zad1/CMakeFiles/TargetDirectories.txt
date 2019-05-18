@@ -1,0 +1,3 @@
+/home/marek/Documents/Semestr_IV/Fortran_Lab/zad1/CMakeFiles/rebuild_cache.dir
+/home/marek/Documents/Semestr_IV/Fortran_Lab/zad1/CMakeFiles/mull.dir
+/home/marek/Documents/Semestr_IV/Fortran_Lab/zad1/CMakeFiles/edit_cache.dir

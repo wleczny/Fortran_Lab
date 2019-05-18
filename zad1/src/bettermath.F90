@@ -43,7 +43,7 @@ module bettermath
             end do
         end do 
     end function bettermul_8
-    
+
     function bettermul_16 (A,B) result(C)
         real (kind = 16), intent(in), dimension(:,:) :: A,B
         real (kind = 16), dimension(size(B(:,1)), size(A(1,:))) :: C

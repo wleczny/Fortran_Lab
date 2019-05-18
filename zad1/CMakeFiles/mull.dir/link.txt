@@ -1,0 +1,1 @@
+/usr/bin/gfortran     -O3 -DNDEBUG -O3 CMakeFiles/mull.dir/src/naivemath.F90.o CMakeFiles/mull.dir/src/bettermath.F90.o CMakeFiles/mull.dir/src/dotmath.F90.o CMakeFiles/mull.dir/src/main.F90.o  -o mull 

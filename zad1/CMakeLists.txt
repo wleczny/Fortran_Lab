@@ -32,6 +32,8 @@ include_directories("${PROJECT_SOURCE_DIR}/src")
 set(SRC src)
 set(mull_SRC
   ${SRC}/naivemath.F90
+  ${SRC}/bettermath.F90
+  ${SRC}/dotmath.F90
   ${SRC}/main.F90
   )
 
@@ -39,3 +41,5 @@ set(mull_SRC
 
 # Target definition
 add_executable(mull ${mull_SRC})
+
+
