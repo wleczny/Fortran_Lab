@@ -9,4 +9,4 @@ W katalogu /res znajduja sie:
 -pliki tekstowe z wynikami pomiarow utworzone przez program glowny (main.F90)
 -pliki pdf zawierajace wykresy pomiarow utworzone za pomaca programu gnuplot
 
-![wykres4](zad1/res/wykres4.pdf)
+
