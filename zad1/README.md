@@ -1,19 +1,19 @@
-# Zadanie z Fortrana majace na celu porownanie szybkosci dzialan funkcji mnozacych macierze**
+# Zadanie z Fortrana majace na celu porownanie szybkosci dzialan funkcji mnozacych macierze
 
 ## Organizacja plikow
 W katalogu /src znajduje sie plik CMake oraz fragmety kodu napisenego w Fortranie:
--3 moduly (naivemath.F90, bettermath.F90 i dotmath.F90) - kazdy z nich odpowiada za inny sposob mnozenia macierzy 
--program glowny (main.F90) - sprawdza i zapisuje do plikow tesktowych czasy wykonywania sie mnozenia macierzy (w zaleznosci od sposobu mnozenia i wielkosci macierzy)
+-3 moduly (naivemath.F90, bettermath.F90 i dotmath.F90) - kazdy z nich odpowiada za inny sposob mnozenia macierzy <br/>
+-program glowny (main.F90) - sprawdza i zapisuje do plikow tesktowych czasy wykonywania sie mnozenia macierzy (w zaleznosci od sposobu mnozenia i wielkosci macierzy)<br/>
 
 W katalogu /res znajduja sie:
--pliki tekstowe z wynikami pomiarow utworzone przez program glowny (main.F90)
--pliki pdf zawierajace wykresy pomiarow utworzone za pomaca programu gnuplot
+-pliki tekstowe z wynikami pomiarow utworzone przez program glowny (main.F90)<br/>
+-pliki pdf zawierajace wykresy pomiarow utworzone za pomaca programu gnuplot<br/>
 
 ## Sposoby mnozenia
-*naivmull - zwykle mnozenie macierzy, ktore przechodzi po wierszach macierzy
-*bettmull - to samo co naiv_mul tyle ze przechodzi po kolumnach macierzy (skuteczniejszy, poniewaz w Fortran-ie macierz przechowywana jest kolumnami
-*dotmull - podobnie jak naiv mul, tylko korzysta z wbudowanej funkcji dot_product, ktora sluzy do mnozenia skalarnego 2 wektorow
-*matmul - wbudowana funkcja, ktora sluzy do mnozenia 2 macierzy przez siebie
+-naivmull - zwykle mnozenie macierzy, ktore przechodzi po wierszach macierzy<br/>
+-bettmull - to samo co naiv_mul tyle ze przechodzi po kolumnach macierzy (skuteczniejszy, poniewaz w Fortran-ie macierz przechowywana jest kolumnami<br/>
+-dotmull - podobnie jak naiv mul, tylko korzysta z wbudowanej funkcji dot_product, ktora sluzy do mnozenia skalarnego 2 wektorow<br/>
+-matmul - wbudowana funkcja, ktora sluzy do mnozenia 2 macierzy przez siebie<br/>
 
 ## Wyniki
 Ponizej widoczne sa wykresy (odpowiednio dla kind = 4, 8, 16)
