@@ -27,7 +27,7 @@
 
 
 ### Wykonoanie programu
-Po kompilacji programu tworzone sa wszytskie pliki tekstowe i oraz wykresy:<br/>
+Po kompilacji programu tworzone sa wszytskie pliki tekstowe oraz wykresy:<br/>
 <br/>
 **plot_sum.png**<br/>
 ![wykres1](res/plot_sum.png)
