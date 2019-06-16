@@ -8,7 +8,6 @@ W katalogu /src znajduje sie plik CMake oraz fragmety kodu napisenego w Fortrani
 W katalogu /res znajduja sie:<br/>
 -pliki tekstowe z wynikami pomiarow utworzone przez program glowny (main.F90)<br/>
 -pliki pdf zawierajace wykresy pomiarow utworzone za pomaca programu gnuplot<br/>
-<<<<<<< HEAD
 
 ## Sposoby mnozenia
 -naivmull - zwykle mnozenie macierzy, ktore przechodzi po wierszach macierzy<br/>
@@ -30,8 +29,6 @@ Na pierwszych 2 (kind = 4 i kind = 8) wykresach wyraznie widac ze od pewnej wiel
 -naivmull<br/>
 <br/>
 Na 3 wykresie (kind = 16) mozemy powiedziec o takiej samej hierarchii, ale z tym wyjatkiem, ze od pewnej wielkosci macierzy matmul i bettmull nachodza na siebie
-=======
->>>>>>> 4d33aad462ac60b89dbff3917f3dd902465074e5
 
 ## Sposoby mnozenia
 -naivmull - zwykle mnozenie macierzy, ktore przechodzi po wierszach macierzy<br/>
