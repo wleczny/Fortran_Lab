@@ -30,9 +30,9 @@
 Po kompilacji programu tworzone sa wszytskie pliki tekstowe i oraz wykresy:<br/>
 <br/>
 **plot_sum.png**<br/>
-![wykres1](res/sum.png)
+![wykres1](res/plot_sum.png)
 <br/>
-plot_fft.png
+**plot_fft.png**
 ![wykres2](res/plot_fft.png)
 <br/>
 **plot_cos.png**
